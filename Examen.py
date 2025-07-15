@@ -29,7 +29,7 @@ def stock_marca():
         if valor[0].lower()==marca:
             print(f'{valor[0]}')
             for clave, valor in stock.items():
-                print(f'{valor[1]}')
+                print(f'{valor[1]}')#hola
 
 def busquedaporprecio():
     while True:
@@ -45,7 +45,7 @@ def busquedaporprecio():
             if precio_max:
                 break
         except ValueError:
-            print('Debe ingresar valores enteros!!')#hola
+            print('Debe ingresar valores enteros!!')
     for clave, valor in stock.items():
         if valor[0]>= precio_min and valor[0]<=precio_max:
             if valor[1] > 0:
