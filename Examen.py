@@ -27,7 +27,7 @@ def stock_marca():
             print('Ingrese sólo letras')#1234
     for clave, valor in productos.items():
         if valor[0].lower()==marca:
-            print(f'{valor[0]}')
+            print(f'{valor[0]}')#jajajaja
             for clave, valor in stock.items():
                 print(f'{valor[1]}')#hola
 
