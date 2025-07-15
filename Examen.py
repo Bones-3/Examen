@@ -50,7 +50,7 @@ def busquedaporprecio():
         if valor[0]>= precio_min and valor[0]<=precio_max:
             if valor[1] > 0:
                 for clave, valor in productos.items():
-                    print(f'{valor[0]}-{clave}')
+                    print(f'{valor[0]}-{clave}')#hola estoy jodido
 
 def listadodeproductos():
     print('------- Listado de Notebooks Ordenados -------')
