@@ -45,12 +45,12 @@ def busquedaporprecio():
             if precio_max:
                 break
         except ValueError:
-            print('Debe ingresar valores enteros!!')
+            print('Debe ingresar valores enteros!!')#hola
     for clave, valor in stock.items():
         if valor[0]>= precio_min and valor[0]<=precio_max:
             if valor[1] > 0:
                 for clave, valor in productos.items():
-                    print(f'{valor[0]}-{clave}')#hola estoy jodido
+                    print(f'{valor[0]}-{clave}')
 
 def listadodeproductos():
     print('------- Listado de Notebooks Ordenados -------')
