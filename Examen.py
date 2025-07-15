@@ -20,7 +20,7 @@ stock = {'8475HD': [387990,10],
 
 def stock_marca():
     while True:
-        marca=input('Ingrese el nombre de la marca: ').lower() 
+        marca=input('Ingrese el nombre de la marca: ').lower()#agfjk
         if marca.isalpha():
             break
         else:
